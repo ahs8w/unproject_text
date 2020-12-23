@@ -22,7 +22,7 @@ setup(
     url="https://github.com/mzucker/unproject_text",
     package_data = {
         'ellipse': ['*'],
-    }
+    },
     py_modules=["unproject_text"],
     install_requires=[
         "numpy>=1.1.0",
