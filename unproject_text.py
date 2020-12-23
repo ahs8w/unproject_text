@@ -8,7 +8,7 @@ import numpy as np
 import scipy.optimize
 import matplotlib.pyplot as plt
 import cv2
-import ellipse
+# import ellipse
 
 DEBUG_IMAGES = []
 
