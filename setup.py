@@ -25,7 +25,6 @@ setup(
         "numpy>=1.1.0",
         "scipy",
         "pillow",
-        "opencv-python>=3.0.0",
         "matplotlib"
     ],
     entry_points="""
