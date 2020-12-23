@@ -20,9 +20,8 @@ setup(
     author="Matt Zucker",
     description="Perspective recovery of text using transformed ellipses.",
     url="https://github.com/mzucker/unproject_text",
-    package_data = {
-        'unproject_text': ['ellipse.py'],
-    },
+    packages=setuptools.find_packages(),
+    include_package_data=True,
     py_modules=["unproject_text"],
     install_requires=[
         "numpy>=1.1.0",
