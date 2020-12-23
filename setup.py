@@ -20,7 +20,7 @@ setup(
     author="Matt Zucker",
     description="Perspective recovery of text using transformed ellipses.",
     url="https://github.com/mzucker/unproject_text",
-    py_modules=["unproject_text", "ellipse", "moments_from_contour"],
+    py_modules=["ellipse", "moments_from_contour", "unproject_text"],
     install_requires=[
         "numpy>=1.1.0",
         "scipy",
